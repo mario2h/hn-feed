@@ -1,0 +1,43 @@
+.header-hn {
+  border-radius: 3px;
+  padding: 30px;
+  background: rgba(33, 89, 197, 0.62);
+  height: 150px;
+}
+
+h1 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 65px;
+  margin-bottom: 2px;
+  margin-top: 15px;
+}
+
+h2 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin-top: 2px;
+}
+
+mat-list-item {
+  background-color: #ffffff;
+  border: 1px #cccccc !important;
+
+}
+
+mat-icon {
+  font-size: 18px;
+}
+
+p {
+  color: #333333;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+span {
+  color: #999999;
+}
+
+.favorite {
+  font-size: 20px;
+  color: red;
+}

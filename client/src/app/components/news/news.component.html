@@ -1,0 +1,19 @@
+<div>
+  <div class="header-hn">
+    <h1>HN Feed</h1>
+    <h2>We <mat-icon class="favorite">favorite</mat-icon> hacker news!</h2>
+  </div>
+  <div>
+    <mat-nav-list>
+      <mat-list-item *ngFor="let news of news?.data">
+        <a matLine [href]="news.url ? news.url : news.story_url" target="_blank">
+          <p>{{ news.title ? news.title : news.story_title }} <span>- {{ news.author }} -</span></p>
+        </a>
+        <p>{{ news.created_at }}</p>
+        <button mat-icon-button (click)="deleteNews(news.objectID)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-nav-list>
+  </div>
+</div>

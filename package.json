@@ -1,0 +1,21 @@
+{
+  "name": "hn-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "client": "cd client && ng serve -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dookie": "^0.2.1",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.17",
+    "morgan": "^1.9.1"
+  }
+}
