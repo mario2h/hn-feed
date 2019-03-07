@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon server/index.js",
-    "client": "cd client && ng serve -o"
+    "client": "cd client && ng serve -o",
+    "dep-client": "cd client && npm install"
   },
   "keywords": [],
   "author": "",
